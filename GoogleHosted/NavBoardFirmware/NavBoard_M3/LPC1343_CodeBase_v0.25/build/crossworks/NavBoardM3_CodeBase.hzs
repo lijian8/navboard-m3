@@ -1,0 +1,92 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ExecutionCountWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="&amp;I2CMasterState" numColumns="8" sizeText="sizeof(I2CMasterState)" dataSize="1" radix="16" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="NavBoardM3_CodeBase" name="unnamed" />
+  <ProjectSessionItem path="NavBoardM3_CodeBase;NavBoardM3_CodeBase" name="unnamed" />
+  <ProjectSessionItem path="NavBoardM3_CodeBase;NavBoardM3_CodeBase;Source Files" name="unnamed" />
+  <ProjectSessionItem path="NavBoardM3_CodeBase;NavBoardM3_CodeBase;Source Files;drivers" name="unnamed" />
+  <ProjectSessionItem path="NavBoardM3_CodeBase;NavBoardM3_CodeBase;Source Files;drivers;GPS" name="unnamed" />
+  <ProjectSessionItem path="NavBoardM3_CodeBase;NavBoardM3_CodeBase;Source Files;drivers;GPS;ublox" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="SSP0/SSP0CR0;SSP0/SSP0CR0/DSS;SSP0/SSP0CR1;SSP0/SSP0CPSR;GPIO1;GPIO2" binaryNodes="GPIO1/GPIO1DATA;GPIO2/GPIO2DATA" unsignedNodes="" visibleGroups="GPIO2;SSP0;GPIO1" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second" >
+   <Watchpoint evalMode="2" linenumber="163" numelements="2" evalType="0" radix="1" name="idat" expression="idat" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/gps/ublox/ublox_lea5.c" />
+   <Watchpoint evalMode="1" linenumber="192" evalType="1" radix="-1" name="data" expression="data" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/sensors/magnetometer/hmc5843.c" />
+   <Watchpoint linenumber="155" radix="16" name="Tick" expression="Tick" filename="c:/documents and settings/kevin/my documents/my dropbox/microbuilder/code/lpc1343/lpc1343_codebase/freertos/tasks.c" />
+   <Watchpoint linenumber="155" radix="-1" name="xTickCount" expression="xTickCount" filename="c:/documents and settings/kevin/my documents/my dropbox/microbuilder/code/lpc1343/lpc1343_codebase/freertos/tasks.c" />
+   <Watchpoint linenumber="137" radix="1" name="dat" expression="dat" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/gps/ublox/ublox_lea5.c" />
+   <Watchpoint linenumber="138" radix="16" name="timer32_0_counter" expression="timer32_0_counter" filename="c:/documents and settings/kevin/my documents/my dropbox/microbuilder/code/lpc1343/lpc1343_codebase/core/timer32/timer32.c" />
+   <Watchpoint linenumber="376" radix="16" name="I2CMasterState" expression="I2CMasterState" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/core/i2c/i2c.c" />
+   <Watchpoint linenumber="66" radix="10" name="msTicks" expression="msTicks" filename="c:/documents and settings/kevin/my documents/my dropbox/microbuilder/code/lpc1343/lpc1343_codebase/core/systick/systick.c" />
+   <Watchpoint linenumber="193" radix="10" name="i" expression="i" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/sensors/accelerometer/lis3lv02.c" />
+   <Watchpoint linenumber="210" radix="-1" name="accdat" expression="accdat" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/main.c" />
+   <Watchpoint linenumber="0" radix="16" name="gyrodat" expression="gyrodat" filename="" />
+   <Watchpoint linenumber="220" radix="10" name="gpsdat" expression="gpsdat" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/main.c" />
+   <Watchpoint evalMode="2" linenumber="80" numelements="12" evalType="0" radix="16" name="I2CSlaveBuffer" expression="I2CSlaveBuffer" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/gps/ublox/ublox_lea5.c" />
+   <Watchpoint linenumber="188" radix="16" name="ix" expression="ix" filename="c:/documents and settings/matthew ryan/my documents/crossworks projects/navboard_m3/lpc1343_codebase_v0.25/drivers/sensors/accelerometer/lis3lv02.c" />
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\lis3lv02.c" y="237" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\lis3lv02.c" left="0" selected="0" name="unnamed" top="220" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\lis3lv02.h" y="48" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\lis3lv02.h" left="0" selected="0" name="unnamed" top="27" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\gyros\itg3200.c" y="55" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\gyros\itg3200.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\gyros\itg3200.h" y="76" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\gyros\itg3200.h" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\i2c\i2c.h" y="82" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\i2c\i2c.h" left="0" selected="0" name="unnamed" top="76" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\i2c\i2c.c" y="2" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\i2c\i2c.c" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\projectconfig.h" y="271" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\projectconfig.h" left="0" selected="0" name="unnamed" top="268" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\GPS\ublox\ublox_lea5.h" y="77" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\GPS\ublox\ublox_lea5.h" left="0" selected="0" name="unnamed" top="63" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\sysinit.c" y="356" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\sysinit.c" left="0" selected="0" name="unnamed" top="327" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\systick\systick.c" y="174" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\systick\systick.c" left="0" selected="0" name="unnamed" top="144" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\magnetometer\hmc5843.c" y="230" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\magnetometer\hmc5843.c" left="0" selected="0" name="unnamed" top="157" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\magnetometer\hmc5843.h" y="84" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\magnetometer\hmc5843.h" left="0" selected="0" name="unnamed" top="54" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\LSM303.c" y="93" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\LSM303.c" left="0" selected="0" name="unnamed" top="103" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\LSM303.h" y="65" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\sensors\accelerometer\LSM303.h" left="0" selected="0" name="unnamed" top="48" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\adc\adc.c" y="223" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\adc\adc.c" left="0" selected="0" name="unnamed" top="196" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\GPS\ublox\ublox_lea5.c" y="0" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\GPS\ublox\ublox_lea5.c" left="0" selected="1" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\main.c" y="203" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\main.c" left="0" selected="0" name="unnamed" top="166" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\chibi\types.h" y="46" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\drivers\chibi\types.h" left="0" selected="0" name="unnamed" top="40" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\cmd\cmd.c" y="93" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\cmd\cmd.c" left="0" selected="0" name="unnamed" top="74" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\cmd\cmd_NavBoard.c" y="95" path="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\core\cmd\cmd_NavBoard.c" left="0" selected="0" name="unnamed" top="71" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="NavBoardM3_CodeBase" autoConnectTarget="SWD Olimex ARM-USB-TINY-H" debugSearchFileMap="" fileDialogInitialDirectory="C:\Documents and Settings\Matthew Ryan\My Documents\CrossWorks Projects\NavBoard_M3\LPC1343_CodeBase_v0.25\lpc1xxx" fileDialogDefaultFilter="*.c;*.h" autoConnectCapabilities="388991" debugSearchPath="" buildConfiguration="THUMB Flash Release" />
+</session>

@@ -1,0 +1,9 @@
+LPC1343 Code Base Changelog (Current Version is v0.25)
+======================================================================
+
+v0.25 (9 July 2010)
+----------------------------------------------------------------------
+
+- Added USB CDC support (115200 baud)
+- Added CLI that works over UART or USBCDC
+- Moved system initialisation code to sysinit to clean up main.c
