@@ -1,0 +1,3 @@
+The Nav Board M3 was designed to augment robot platforms with inertial sensing and GPS location awareness.  Originally designed for use with the SRV robots at www.surveyor.com, the latest version has an on board ARM processor to allow experimentaton directly with the unit.
+
+Nav Board M3 features an ARM Cortex M3 processor, specifically the LPC 1343.  The unit can be reprogrammed via the USB port, showing up as a Windows flash drive.  Simply rename your bin file to "firmware.bin" and overwrite the existing code on the device.
